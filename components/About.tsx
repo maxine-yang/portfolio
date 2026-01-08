@@ -60,7 +60,7 @@ export default function About() {
               プログラミング以外では、文章執筆やイラスト制作といった個人創作活動も継続しています。
               <span className="font-medium italic">信頼性と創造性の両立できるエンジニア</span>{" "}を目指し、長期的な積み重ねを大切にしています。
               <br />
-              <span className="font-medium italic">"Every master was once a beginner who refused to quit."</span>
+              <span className="font-medium italic">&ldquo;Every master was once a beginner who refused to quit.&rdquo;</span>
             </p>
           </>
 
@@ -86,7 +86,7 @@ export default function About() {
                 {" "}{" "}Tianjin Normal University{" "}{" "}
               </a>
               began with a rebellious spark—I wanted to
-              <span className="font-medium italic"> break the social prejudice</span> that "women cannot excel in engineering."
+              <span className="font-medium italic"> break the social prejudice</span> that &ldquo;women cannot excel in engineering.&rdquo;
               However, once I truly entered the world of programming, I discovered a profound sense of belonging. To me, code is not just a tool; it is the perfect balance between
               <span className="font-medium italic"> rational logic and emotional expression.</span>
             </p>
@@ -106,7 +106,7 @@ export default function About() {
             <p>
               Although I am still at the beginning of my professional path, I am committed to continuous growth.
               <span className="font-medium italic">
-                "Every master was once a beginner who refused to quit."
+                &ldquo;Every master was once a beginner who refused to quit.&rdquo;
               </span>
               {" "}I strive to be an engineer who balances reliability with creative soul.
 
