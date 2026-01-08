@@ -1,0 +1,35 @@
+{
+    
+  "Header": {
+    "Home": "Home",
+    "About": "About me",
+    "Experiences": "Experience",
+    "Projects": "Projects",
+    "Skills": "Skills"
+  },
+
+    "IntroSection": {
+        "hello_im": "Hi, my name is",
+        "name": "Maxine Yang",
+        
+        "download_cv": "Download CV",
+        "short_intro": "with",
+        "java_bg": "Java background",
+        "exploring": "exploring",
+        "web_dev": "web development",
+        "blog": "Blog",
+        "zenn": "Zenn"
+    },
+    "SectionName": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+   
+  "AboutSection": {
+    "desc": "If I were to describe myself in three words, they would be: full-stack developer, multilingual user, and creator-driven builder.\n\nI hold a degree in Software Engineering and have built my development experience primarily through self-directed learning and hands-on projects. To me, code is not merely a tool for implementing features, but a form of expression that balances logic, structure, and creativity—demanding precision while still allowing room for aesthetics.\n\nMy first complete project began with a simple motivation: building a sustainable fan website for a work I deeply admired. I initially focused on front-end development, and as the project evolved, I gradually introduced back-end modules to support user interaction and data management. Through this process, I learned how to break abstract ideas down into executable features, refine system structure through iteration, and improve usability over time.\n\nIn addition to programming, I work and create in Chinese, English, and Japanese. I previously participated in a paid internship program in the United States, and later passed the JLPT N1 through self-study before moving to Japan. I see strong parallels between programming and language learning: both involve understanding rules, building structure, and making complex ideas accessible to others.\n\nEvery master was once a beginner who refused to quit."
+  }
+
+
+}
