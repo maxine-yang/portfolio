@@ -1,7 +1,11 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuSchool, LuBriefcase, LuGlobe, LuShoppingBag, LuHouse, LuPencil, LuLayoutDashboard, LuBookOpen, LuClipboardList } from "react-icons/lu";
 import knowledgeSharingPlatformImage from '@/public/knowledge-sharing-platform.png';
 import breadditImage from "@/public/breaddit.png";
 import gameHubImage from "@/public/game-hub.png";
@@ -47,76 +51,136 @@ export const headerLanguageMap = {
 
 export const experiencesData = [
     {
-        title: "MSc in Computing and IT",
-        location: "University of St Andrews, UK",
-        description:
-            "Achieved a Master's degree in Computing and IT, acquiring in-depth knowledge in areas such as Human Computer Interaction, Computer Communication Systems, and Information Security. Developed strong capabilities in computational thinking, user-centred design, and data visualisation, preparing for effective application in technology-driven environments",
+        type: "education",
+        title: "Tianjin Normal University",
+        location: "Tianjin, China",
+        date: "Sep 2020 - Jun 2024",
         icon: React.createElement(LuGraduationCap),
-        date: "2023 Sep - 2024 May",
+        description: "Bachelor's Degree in Software Engineering. Self-studied and passed the Japanese Language Proficiency Test (JLPT) N2 during university studies. Awarded Third Prize in the Team Competition of Tianjin University Student Network Attack and Defense Competition.",
     },
     {
-        title: "Frontend Intern",
-        location: React.createElement("span", {},
-            React.createElement("a", {
-                href: "https://www.nio.com/",
-                style: { textDecoration: 'underline' },
-                target: "_blank"
-            }, "NIO Inc."),
-            " Wuhan, China"
-        ),
-        description:
-            "Developed NIO's third-generation station list and detail pages using Vue3, TypeScript, and Baidu Maps API. Implemented role-based access control for the Task Wizard page, enhancing system security. Collaborated effectively within a Jira-managed environment, utilizing Jenkins for deployment processes.",
-        icon: React.createElement(FaVuejs),
-        date: "2022 Aug - 2022 Dec",
-    },
-    {
-        title: "Frontend Assistant",
-        location: "Wuhan University | Wuhan, China",
-        description:
-            "Developed and maintained Finknow, a Financial Knowledge Graph Query and Analysis Platform using umi (React framework) and Ant Design Pro. Utilized graphin, a React toolkit for graph analysis based on G6, to develop an Equity Network Penetration Graph, enhancing data visualization capabilities.",
-        icon: React.createElement(FaReact),
-        date: "2022 May - 2022 July",
-    },
-    {
-        title: "BA in Digital Publishing",
-        location: "Wuhan University, China",
-        description:
-            "Graduated with a Bachelor of Arts in Digital Publishing, securing a GPA of 3.81/4.0. Gained foundational knowledge in digital media and publishing technologies.",
+        type: "education",
+        title: "Tokyo Sakura Gakuin",
+        location: "Tokyo, Japan",
+        date: "Apr 2025 - Jul 2025",
         icon: React.createElement(LuGraduationCap),
-        date: "2019 Sep - 2023 Jun",
+        description: "Advanced Japanese Language Program focused on cultural integration. Passed the Japanese Language Proficiency Test (JLPT) N1 during the program.",
     },
-
+    {
+        type: "work",
+        title: "Intern (Business Support)",
+        location: "Tianjin, China",
+        date: "Oct 2023 - Apr 2024",
+        icon: React.createElement(LuBriefcase),
+        description: "Assisted in drafting Chinese user manuals and managing data entry for ERP systems. Performed functional testing (Manual Testing) to identify and report system bugs during the development phase.",
+    },
+    {
+        type: "work",
+        title: "Overseas Work Experience (J-1 Program)",
+        location: "Minnesota, USA",
+        date: "Jun 2024 - Sep 2024",
+        icon: React.createElement(LuBriefcase),
+        description: "Engaged in a fast-paced service environment as a server & bartender. Developed high-level English communication skills and cross-cultural adaptability in an international team.",
+    },
+    {
+        type: "work",
+        title: "Sales & Retail Specialist (Dispatch)",
+        location: "Chiba/Tokyo, Japan",
+        date: "Aug 2025 - Present",
+        icon: React.createElement(LuBriefcase),
+        description: "Operating as a retail specialist for Michael Kors. Mastering Japanese business etiquette and high-end customer service (Omotenashi) while maintaining JLPT N1 proficiency.",
+    },
+    {
+        type: "project",
+        title: "Real Estate System for Foreigners",
+        location: "GitHub / AWS",
+        date: "2025",
+        icon: React.createElement(LuHouse),
+        description: "A full-stack rental platform built with Java (Spring Boot) and MySQL. Implemented JWT authentication and Docker deployment to solve housing pain points for foreigners in Japan.",
+    },
+    {
+        type: "project",
+        title: "Personal Blog Platform",
+        location: "GitHub / Local",
+        date: "2026",
+        icon: React.createElement(LuHouse),
+        description: "Full-stack blog system built with Spring Boot 3.2 and Java 17. Implemented GitHub-style calendar heatmap visualization, minimalist UI with Tailwind CSS, and Markdown editor for content management.",
+    },
+    {
+        type: "project",
+        title: "Personal Portfolio Website",
+        location: "Vercel",
+        date: "2026",
+        icon: React.createElement(LuHouse),
+        description: "A responsive, multilingual portfolio showcasing my journey from a consultant/server to a software engineer, highlighting JLPT N1 and global work experience.",
+    },
 ]
 
 export const experiencesDataZn = [
     {
-        "title": "计算机与信息技术硕士",
-        "location": "英国圣安德鲁斯大学",
-        "description": "在人机交互、计算机通信系统和信息安全等领域深入学习。培养了计算思维、以用户为中心的设计和数据可视化方面的强大能力，预计以一等学位毕业（GPA17/20）。",
+        type: "education",
+        title: "天津師範大学",
+        location: "中国・天津",
+        date: "2020年9月 - 2024年6月",
         icon: React.createElement(LuGraduationCap),
-        "date": "2023年9月 - 2024年12月"
+        description: "ソフトウェア工学専攻で学士号を取得。在学中に独学で日本語能力試験（JLPT）N2に合格。天津市大学生ネットワーク攻防大会の団体戦で三等賞を受賞。",
     },
     {
-        "title": "前端实习生",
-        "location": "蔚来汽车（中国武汉）",
-        "description": `参与团队多个平台的迭代开发，独立完成内部告警平台的值班表页面开发。协助开发蔚来第三代场站列表与详情页，集成百度地图 API 实现定位与选点功能。优化任务魔棒页面，新增管理员角色，重构权限管理逻辑，用头像列表展示管理员，并整合飞书 API 实现消息发送。自定义 Element-UI 级联选择组件，解决全选德国 2000+ 城市时浏览器卡死问题，通过懒加载优化显著提升性能。遵循 Agile/Scrum 开发流程，进行两周一迭代，通过 Jira 跟进项目需求，设计技术方案，并与测试、后端、产品及 设计团队密切对接。`,
-        "icon": React.createElement(FaVuejs),
-        "date": "2022年8月 - 2022年12月"
+        type: "education",
+        title: "東京さくら学院",
+        location: "日本・東京",
+        date: "2025年4月 - 2025年7月",
+        icon: React.createElement(LuGraduationCap),
+        description: "文化統合に焦点を当てた上級日本語プログラム。プログラム期間中に日本語能力試験（JLPT）N1に合格。",
     },
     {
-        "title": "前端开发",
-        "location": "武汉大学大数据研究院",
-        "description": "使用umi（React框架）和Ant Design Pro开发和维护Finknow，一个金融知识图谱查询和分析平台。利用基于G6的React图分析工具包graphin开发了股权网络穿透图，增强了数据可视化功能。",
-        "icon": React.createElement(FaReact),
-        "date": "2022年5月 - 2022年8月"
+        type: "work",
+        title: "インターン（ビジネスサポート）",
+        location: "中国・天津",
+        date: "2023年10月 - 2024年4月",
+        icon: React.createElement(LuBriefcase),
+        description: "中国語によるシステム操作マニュアルの作成補助、およびデータ入力業務を担当。また、テスターとして開発中のシステムの動作確認を行い、不具合の報告業務に従事。",
     },
     {
-        "title": "数字出版学士",
-        "location": "武汉大学",
-        "description": "以3.81/4.0的GPA毕业，获得数字出版学士学位，掌握了数字媒体和出版技术的基础知识。",
-        "icon": React.createElement(LuGraduationCap),
-        "date": "2019年9月 - 2023年6月"
-    }
+        type: "work",
+        title: "海外就労経験（J-1プログラム）",
+        location: "アメリカ・ミネソタ州",
+        date: "2024年6月 - 2024年9月",
+        icon: React.createElement(LuBriefcase),
+        description: "サーバー・バーテンダーとして高速なサービス環境で従事。国際的なチームで高度な英語コミュニケーションスキルと異文化適応力を習得。",
+    },
+    {
+        type: "work",
+        title: "セールス・小売スペシャリスト（派遣）",
+        location: "日本・千葉/東京",
+        date: "2025年8月 - 現在",
+        icon: React.createElement(LuBriefcase),
+        description: "マイケル・コースの小売スペシャリストとして活動。JLPT N1レベルの日本語力を維持しながら、日本のビジネスマナーと高級顧客サービス（おもてなし）を習得中。",
+    },
+    {
+        type: "project",
+        title: "外国人向け不動産システム",
+        location: "GitHub / AWS",
+        date: "2025",
+        icon: React.createElement(LuHouse),
+        description: "Java（Spring Boot）とMySQLで構築したフルスタック賃貸プラットフォーム。JWT認証とDockerデプロイメントを実装し、日本在住外国人の住宅問題を解決。",
+    },
+    {
+        type: "project",
+        title: "個人ブログプラットフォーム",
+        location: "GitHub / Local",
+        date: "2026",
+        icon: React.createElement(LuHouse),
+        description: "Spring Boot 3.2 と Java 17 で構築したフルスタックブログシステム。GitHubスタイルのカレンダーヒートマップ可視化、Tailwind CSS によるミニマリストUI、コンテンツ管理用のMarkdownエディタを実装。",
+    },
+    {
+        type: "project",
+        title: "個人ポートフォリオウェブサイト",
+        location: "Vercel",
+        date: "2026",
+        icon: React.createElement(LuHouse),
+        description: "コンサルタント/サーバーからソフトウェアエンジニアへの転身を紹介するレスポンシブで多言語対応のポートフォリオ。JLPT N1とグローバルな就労経験を強調。",
+    },
 ]
 
 
@@ -151,7 +215,7 @@ export const projectsData = [
         desc_jp: "一个打字速度测试应用。敲击即开始打字，计时结束后将显示总敲击单词数、正确率、错误率等。该应用UI简洁现代，支持Dark Mode切换。",
         tags: ["React", "TypeScript", "Tailwind", 'Framer Motion'],
         imageUrl: typingSpeedImage,
-        projectUrl: 'https://github.com/Codefreyy/typing-speed-game',
+        projectUrl: 'https://github.com/maxine-yang/typing-speed-game',
         demoUrl: 'https://joy-typing-speed.netlify.app/',
     },
     {
@@ -163,7 +227,7 @@ export const projectsData = [
         desc_jp: "一个现代且简洁的Reddit克隆项目，使用Next.js、TypeScript和Tailwind CSS构建。项目功能包括无限滚动动态加载帖子、NextAuth与Google认证、为认证用户提供自定义Feed、高级缓存、乐观更新、React-Query数据获取、美观的帖子编辑器、图片上传和链接预览、以及完整的评论功能。",
         tags: ["Next.js", "TypeScript", "Upstash", "React-Query", "TailwindCSS"],
         imageUrl: breadditImage,
-        projectUrl: 'https://github.com/Codefreyy/Breddit',
+        projectUrl: 'https://github.com/maxine-yang/Breddit',
         demoUrl: 'https://joy-breddit.vercel.app/',
     },
     {
@@ -173,7 +237,7 @@ export const projectsData = [
         desc_jp: "交互式可视化图表探讨了税收政策如何影响财富、不同行业对不同性别的财富的影响以及这些影响在各大洲之间的差异。深入了解我们的数据，揭示全球财富的复杂层次。",
         tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
         imageUrl: visualizationImage,
-        projectUrl: 'https://github.com/Codefreyy/d3-evolution-visualisation',
+        projectUrl: 'https://github.com/maxine-yang/d3-evolution-visualisation',
         demoUrl: 'https://global-wealth-spectrum.netlify.app/',
     },
 

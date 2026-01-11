@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 export const metadata = {
   icons: {
     icon: '/icon.ico?v=2', // 在這裡加上版本號

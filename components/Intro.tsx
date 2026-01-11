@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 "use client"
 
 import Image from "next/image"
@@ -188,7 +192,7 @@ export default function Intro() {
 
         <a
           className="bg-white py-2 px-3 text-lg text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Codefreyy"
+          href="https://github.com/maxine-yang"
           target="_blank"
         >
           <FaGithubSquare className="text-2xl" />

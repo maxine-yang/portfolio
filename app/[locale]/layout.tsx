@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 import Header from "@/components/Header"
 import "./globals.css"
 import { Inter } from "next/font/google"

@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 import { headers } from 'next/headers';
 import { UAParser } from 'ua-parser-js';
 

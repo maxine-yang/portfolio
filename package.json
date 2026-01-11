@@ -1,6 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "maxine-personal-portfolio",
   "version": "0.1.0",
+  "description": "Personal portfolio website by Maxine Yang - A modern, responsive portfolio built with Next.js 14",
   "private": true,
   "scripts": {
     "dev": "next dev",

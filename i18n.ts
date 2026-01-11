@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 // import { notFound } from 'next/navigation';
 // import { getRequestConfig } from 'next-intl/server';
 

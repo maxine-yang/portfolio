@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 import Intro from "@/components/Intro"
 import SectionDivider from "@/components/SectionDivider"
 import About from "@/components/About"

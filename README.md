@@ -125,14 +125,14 @@ The website supports multiple languages through `next-intl`. Translation files a
 
 ## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
+Copyright 2026 Maxine yang (Updated version). This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Maxine Yang**
+**Author: maxine yang**
 
-- GitHub: [@Codefreyy](https://github.com/Codefreyy)
-- Portfolio: [Your Portfolio URL]
+- GitHub: [@maxine-yang](https://github.com/maxine-yang)
+- Portfolio: https://maxine-portfolio.vercel.app
 
 ---
 
@@ -263,7 +263,7 @@ export const projectsData = [
 
 ## 👤 作成者
 
-**Maxine Yang**
+**Author: maxine yang**
 
 - GitHub: https://github.com/maxine-yang
 - ポートフォリオ: https://maxine-portfolio.vercel.app

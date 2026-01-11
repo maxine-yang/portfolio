@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 "use client"
 
 import React, { createContext, useContext, useEffect, useState } from "react"

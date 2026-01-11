@@ -1,3 +1,7 @@
+/**
+ * Author: maxine yang
+ * Copyright 2026 Maxine yang (Updated version)
+ */
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
