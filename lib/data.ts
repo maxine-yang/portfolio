@@ -13,6 +13,7 @@ import typingSpeedImage from "@/public/typing-speed.png";
 import visualizationImage from "@/public/d3.png";
 import rentalBackendSwaggerImage from "@/public/rentalBackendSwaggerImage.png";
 import blogImage from "@/public/blog.png";
+import portfolioImage from "@/public/portfolio.png";
 
 export const links = [
     {
@@ -220,27 +221,38 @@ export const projectsData = [
         demoUrl: 'https://max-blog-hl6t.onrender.com/about',
     },
     {
-        title: "Breddit",
-        title_jp: "社交新闻论坛",
+        title: "Personal Portfolio Website",
+        title_jp: "個人ポートフォリオウェブサイト",
         description:
-            `A modern full-stack Reddit clone with infinite scrolling, secure NextAuth Google authentication, and a custom feed for authenticated users. It uses Upstash Redis for caching and React-Query for efficient, responsive data fetching with optimistic updates.
-            `,
-        desc_jp: "一个现代且简洁的Reddit克隆项目，使用Next.js、TypeScript和Tailwind CSS构建。项目功能包括无限滚动动态加载帖子、NextAuth与Google认证、为认证用户提供自定义Feed、高级缓存、乐观更新、React-Query数据获取、美观的帖子编辑器、图片上传和链接预览、以及完整的评论功能。",
-        tags: ["Next.js", "TypeScript", "Upstash", "React-Query", "TailwindCSS"],
-        imageUrl: breadditImage,
-        projectUrl: 'https://github.com/maxine-yang/Breddit',
-        demoUrl: 'https://joy-breddit.vercel.app/',
+            "A modern portfolio website built with Next.js 14 (App Router) and TypeScript. Features multilingual support (English/Japanese) via next-intl, smooth animations with Framer Motion, and responsive design with Tailwind CSS.",
+        desc_jp: "Next.js 14 (App Router) と TypeScript で構築されたモダンなポートフォリオウェブサイト。next-intl による多言語対応（英語/日本語）、Framer Motion によるスムーズなアニメーション、Tailwind CSS によるレスポンシブデザインを実装。",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "next-intl"],
+        imageUrl: portfolioImage,
+        projectUrl: 'https://github.com/maxine-yang/portfolio',
+        demoUrl: 'https://maxine-portfolio.vercel.app',
     },
-    {
-        title: "Global Wealth Spectrum Visualisation",
-        title_jp: '世界财富可视化光谱',
-        description: "This interactive visualization explores how tax policies influence wealth, how industries impact fortunes differently by gender, and how these effects vary across continents. Dive into our data to uncover the complex layers of global wealth.",
-        desc_jp: "交互式可视化图表探讨了税收政策如何影响财富、不同行业对不同性别的财富的影响以及这些影响在各大洲之间的差异。深入了解我们的数据，揭示全球财富的复杂层次。",
-        tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
-        imageUrl: visualizationImage,
-        projectUrl: 'https://github.com/maxine-yang/d3-evolution-visualisation',
-        demoUrl: 'https://global-wealth-spectrum.netlify.app/',
-    },
+    // {
+    //     title: "Breddit",
+    //     title_jp: "社交新闻论坛",
+    //     description:
+    //         `A modern full-stack Reddit clone with infinite scrolling, secure NextAuth Google authentication, and a custom feed for authenticated users. It uses Upstash Redis for caching and React-Query for efficient, responsive data fetching with optimistic updates.
+    //         `,
+    //     desc_jp: "一个现代且简洁的Reddit克隆项目，使用Next.js、TypeScript和Tailwind CSS构建。项目功能包括无限滚动动态加载帖子、NextAuth与Google认证、为认证用户提供自定义Feed、高级缓存、乐观更新、React-Query数据获取、美观的帖子编辑器、图片上传和链接预览、以及完整的评论功能。",
+    //     tags: ["Next.js", "TypeScript", "Upstash", "React-Query", "TailwindCSS"],
+    //     imageUrl: breadditImage,
+    //     projectUrl: 'https://github.com/maxine-yang/Breddit',
+    //     demoUrl: 'https://joy-breddit.vercel.app/',
+    // },
+    // {
+    //     title: "Global Wealth Spectrum Visualisation",
+    //     title_jp: '世界财富可视化光谱',
+    //     description: "This interactive visualization explores how tax policies influence wealth, how industries impact fortunes differently by gender, and how these effects vary across continents. Dive into our data to uncover the complex layers of global wealth.",
+    //     desc_jp: "交互式可视化图表探讨了税收政策如何影响财富、不同行业对不同性别的财富的影响以及这些影响在各大洲之间的差异。深入了解我们的数据，揭示全球财富的复杂层次。",
+    //     tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
+    //     imageUrl: visualizationImage,
+    //     projectUrl: 'https://github.com/maxine-yang/d3-evolution-visualisation',
+    //     demoUrl: 'https://global-wealth-spectrum.netlify.app/',
+    // },
 
 
 ]

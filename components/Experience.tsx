@@ -76,10 +76,10 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
             const isLeft = isEven
             
             return (
-              <motion.div
-                key={index}
-                initial="hidden"
-                whileInView="visible"
+            <motion.div
+              key={index}
+              initial="hidden"
+              whileInView="visible"
                 viewport={{ once: true, amount: 0.3 }}
                 variants={variants}
                 className={`relative flex items-center gap-4 md:gap-6 ${
@@ -93,8 +93,8 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
                   >
                     <div className={`flex items-start gap-4 mb-4 ${isLeft ? "md:flex-row-reverse" : ""}`}>
                       <div className={`w-12 h-12 rounded-full ${styles.iconBg} flex items-center justify-center flex-shrink-0 text-xl`}>
-                        {item.icon}
-                      </div>
+                {item.icon}
+              </div>
                       <div className="flex-1">
                         <h3 className="font-bold capitalize text-lg mb-1">{item.title}</h3>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{item.location}</p>
@@ -102,8 +102,8 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
                       </div>
                     </div>
                     <p className={`text-sm text-gray-700 dark:text-white/75 leading-relaxed ${isLeft ? "md:text-left" : ""}`}>
-                      {item.description}
-                    </p>
+                  {item.description}
+                </p>
                   </motion.div>
                 </div>
                 
@@ -117,7 +117,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
               </motion.div>
             )
           })}
-        </div>
+              </div>
         
         {/* To be continued 提示 */}
         <div className="relative flex flex-col items-center justify-center" style={{ marginTop: 'calc(4rem + 1.5cm)' }}>
@@ -127,7 +127,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
               {activeLocale === "jp" ? "続く" : "To be continued"}...
             </p>
             <div className="hidden md:block w-12 h-px bg-gradient-to-l from-transparent via-gray-300 to-gray-300 dark:via-gray-600 dark:to-gray-600"></div>
-          </div>
+            </div>
         </div>
       </div>
     </section>
