@@ -12,6 +12,7 @@ import gameHubImage from "@/public/game-hub.png";
 import typingSpeedImage from "@/public/typing-speed.png";
 import visualizationImage from "@/public/d3.png";
 import rentalBackendSwaggerImage from "@/public/rentalBackendSwaggerImage.png";
+import blogImage from "@/public/blog.png";
 
 export const links = [
     {
@@ -208,15 +209,15 @@ export const projectsData = [
         demoUrl: ""
       },
     {
-        title: "Typing Speed",
-        title_jp: '打字测验',
+        title: "maxine's blog",
+        title_jp: "maxine's blog",
         description:
-            "A comprehensive typing speed test application that tracks your overall typing performance. It provides detailed statistics, including total words typed, errors made, and accuracy rate, allowing users to monitor their progress and improve their typing efficiency.",
-        desc_jp: "一个打字速度测试应用。敲击即开始打字，计时结束后将显示总敲击单词数、正确率、错误率等。该应用UI简洁现代，支持Dark Mode切换。",
-        tags: ["React", "TypeScript", "Tailwind", 'Framer Motion'],
-        imageUrl: typingSpeedImage,
-        projectUrl: 'https://github.com/maxine-yang/typing-speed-game',
-        demoUrl: 'https://joy-typing-speed.netlify.app/',
+            "Personal blog project built with Spring Boot 3.2.0 and Java 17.",
+        desc_jp: "Spring Boot 3.2.0 と Java 17 で構築されたパーソナルブログプロジェクト。",
+        tags: ["Spring Boot", "Java 17", "Spring Data JPA", "Hibernate", "Thymeleaf", "Tailwind CSS", "JavaScript", "ECharts", "MySQL", "Maven"],
+        imageUrl: blogImage,
+        projectUrl: 'https://github.com/maxine-yang/max-blog',
+        demoUrl: 'https://max-blog-hl6t.onrender.com/about',
     },
     {
         title: "Breddit",
