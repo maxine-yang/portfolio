@@ -78,11 +78,11 @@ export const experiencesData = [
     },
     {
         type: "work",
-        title: "Overseas Work Experience (J-1 Program)",
-        location: "Minnesota, USA",
+        title: "Activity Staff Intern",
+        location: "The Westin Hilton Head Island Resort & Spa, USA",
         date: "Jun 2024 - Sep 2024",
         icon: React.createElement(LuBriefcase),
-        description: "Engaged in a fast-paced service environment as a server & bartender. Developed high-level English communication skills and cross-cultural adaptability in an international team.",
+        description: "Worked as an Activity Staff Intern at The Westin Hilton Head Island Resort & Spa. Supported the planning and operation of guest activities and workshops. Gained practical experience in customer service, teamwork, and cross-cultural communication in an international environment.",
     },
     {
         type: "work",
@@ -145,11 +145,11 @@ export const experiencesDataZn = [
     },
     {
         type: "work",
-        title: "海外就労経験（J-1プログラム）",
-        location: "アメリカ・ミネソタ州",
+        title: "アクティビティスタッフインターン",
+        location: "ザ・ウェスティン・ヒルトンヘッドアイランドリゾート＆スパ（アメリカ）",
         date: "2024年6月 - 2024年9月",
         icon: React.createElement(LuBriefcase),
-        description: "サーバー・バーテンダーとして高速なサービス環境で従事。国際的なチームで高度な英語コミュニケーションスキルと異文化適応力を習得。",
+        description: "The Westin Hilton Head Island Resort & Spaにてアクティビティスタッフとして勤務。宿泊ゲスト向けアクティビティやワークショップの企画・運営をサポート。国際的な環境の中で、接客力・チームワーク・異文化コミュニケーション能力を培いました。",
     },
     {
         type: "work",
